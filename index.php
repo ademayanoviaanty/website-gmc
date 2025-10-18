@@ -1,4 +1,4 @@
 <?php
-header("Location: landingpage/pages/main.php");
+header("Location: landingpage/index.php");
 exit;
 ?>
