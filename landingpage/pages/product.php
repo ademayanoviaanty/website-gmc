@@ -95,7 +95,7 @@ if (file_exists($dataPath)) {
                 <h3 class="name mb-1" id="detailName"></h3>
                 <p class="title mb-3" id="detailCategory"></p>
                 <p class="bio mb-3" id="detailHarga"></p>
-                <li class="bio mb-3 text-break" id="detailDesc"></li>
+                <p class="bio mb-3 text-break" id="detailDesc"></p>
                 <a href="https://wa.me/6289526486226?text=Halo%2C%20saya%20ingin%20menanyakan%20harga%20dan%20spesifikasi%20produk.%20Apakah%20masih%20tersedia%3F" class="btn btn-appointment w-30">Beli Sekarang</a>
               </div>
               
