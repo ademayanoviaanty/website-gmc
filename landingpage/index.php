@@ -153,7 +153,7 @@
 
     function populateCategories(data) {
       const categories = [...new Set(data.map(p => p.kategori).filter(Boolean))];
-      categorySelect.innerHTML = '<option value="*">All Categories</option>';
+      categorySelect.innerHTML = '<option value="*">Semua Kategori</option>';
       categories.forEach(cat => {
         const opt = document.createElement('option');
         opt.value = cat;
@@ -164,7 +164,7 @@
 
     function renderFilters(data) {
       const categories = [...new Set(data.map(p => p.kategori).filter(Boolean))];
-      let html = `<li data-filter="*" class="filter-active">All</li>`;
+      let html = `<li data-filter="*" class="filter-active">Semua</li>`;
       categories.forEach(cat => {
         const filterClass = '.filter-' + cat.toLowerCase().replace(/\s+/g, '-');
         html += `<li data-filter="${filterClass}">${cat}</li>`;
@@ -199,7 +199,7 @@
         <h5 class="mb-1">${p.name}</h5>
         <p class="mb-1 text-muted">${p.kategori ?? ''}</p>
         <p class="mb-2">Rp ${Number(p.harga).toLocaleString()}</p>
-        <a href="#" class="btn btn-sm btn-soft mt-auto view-product-btn">View Product</a>
+        <a href="#" class="btn btn-sm btn-soft mt-auto view-product-btn">Lihat Produk</a>
       </div>
     `;
         const btnDetail = col.querySelector('.view-product-btn');

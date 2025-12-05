@@ -45,10 +45,10 @@ if (file_exists($dataPath)) {
       <div class="directory-bar p-3 p-md-4 rounded-3">
         <div class="row g-3 align-items-end">
           <div class="col-lg-4 d-flex flex-column">
-            <label for="product-search" class="form-label mb-0">Search Products</label>
+            <label for="product-search" class="form-label mb-0">Cari Produk</label>
             <div class="position-relative">
               <i class="bi bi-search search-icon"></i>
-              <input id="product-search" type="text" class="form-control search-input" placeholder="Type a product name">
+              <input id="product-search" type="text" class="form-control search-input" placeholder="Tulis Nama Produk">
             </div>
           </div>
 
@@ -69,7 +69,7 @@ if (file_exists($dataPath)) {
           </div>
 
           <div class="col-lg-2 d-flex align-items-end">
-            <button id="applyFilters" class="btn btn-appointment w-100">Apply Filters</button>
+            <button id="applyFilters" class="btn btn-appointment w-100">Terapkan</button>
           </div>
         </div>
       </div>
@@ -95,8 +95,10 @@ if (file_exists($dataPath)) {
                 <h3 class="name mb-1" id="detailName"></h3>
                 <p class="title mb-3" id="detailCategory"></p>
                 <p class="bio mb-3" id="detailHarga"></p>
-                <p class="bio mb-3 text-break" id="detailDesc"></p>
+                <li class="bio mb-3 text-break" id="detailDesc"></li>
+                <a href="https://wa.me/6289526486226?text=Halo%2C%20saya%20ingin%20menanyakan%20harga%20dan%20spesifikasi%20produk.%20Apakah%20masih%20tersedia%3F" class="btn btn-appointment w-30">Beli Sekarang</a>
               </div>
+              
             </div>
           </div>
         </div>

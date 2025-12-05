@@ -24,7 +24,7 @@
         </div>
       </div>
       <div class="col-lg-5">
-        <img src="assets/img/home/logo1.png" alt="">
+        <img src="assets/img/home/logo1.png" alt="" class="img-fluid">
       </div>
     </div>
   </div>
@@ -119,9 +119,9 @@
                 <i class="fa-solid fa-tower-cell"></i>
               </div>
               <div class="card-content">
-                <h3 class="card-title">Alat Jaringan</h3>
+                <h3 class="card-title">Mainboard Profesional/OLT</h3>
                 <p class="card-description">
-                  Kami hadir dengan layanan profesional dan terpercaya untuk memenuhi kebutuhan jaringan dan multimedia Anda.
+                  Menerima jasa perbaikan mainboard untuk berbagai perangkat
                 </p>
                 <div class="action-buttons">
                   <a href="servis.html" class="secondary-link">
@@ -319,12 +319,12 @@
         <div class="card-content">
           <div class="specialist-info">
             <div class="profile-section">
-              <div class="profile-image">
+              <!-- <div class="profile-image">
                 <img
-                  src="assets/img/health/f1.jpeg"
+                  src="assets/img/produk/mikrotik-logo.png"
                   alt="Produk"
                   class="img-fluid" />
-              </div>
+              </div> -->
               <div class="specialist-data">
                 <h3>Mikrotik</h3>
                  <div class="rating-info">
@@ -347,16 +347,16 @@
       <div
         class="specialist-card"
         data-aos="slide-up"
-        data-aos-delay="300">
+        data-aos-delay="350">
         <div class="card-content">
           <div class="specialist-info">
             <div class="profile-section">
-              <div class="profile-image">
+              <!-- <div class="profile-image">
                 <img
-                  src="assets/img/health/f1.jpeg"
+                  src="assets/img/produk/ubiquiti-logo.png"
                   alt="Produk"
                   class="img-fluid" />
-              </div>
+              </div> -->
               <div class="specialist-data">
                 <h3>Ubiquiti</h3>
                  <div class="rating-info">
@@ -379,16 +379,16 @@
       <div
         class="specialist-card"
         data-aos="slide-up"
-        data-aos-delay="300">
+        data-aos-delay="400">
         <div class="card-content">
           <div class="specialist-info">
             <div class="profile-section">
-              <div class="profile-image">
+              <!-- <div class="profile-image">
                 <img
                   src="assets/img/health/f1.jpeg"
                   alt="Produk"
                   class="img-fluid" />
-              </div>
+              </div> -->
               <div class="specialist-data">
                 <h3>Switch</h3>
                  <div class="rating-info">
@@ -411,16 +411,16 @@
       <div
         class="specialist-card"
         data-aos="slide-up"
-        data-aos-delay="300">
+        data-aos-delay="450">
         <div class="card-content">
           <div class="specialist-info">
             <div class="profile-section">
-              <div class="profile-image">
+              <!-- <div class="profile-image">
                 <img
                   src="assets/img/health/f1.jpeg"
                   alt="Produk"
                   class="img-fluid" />
-              </div>
+              </div> -->
               <div class="specialist-data">
                 <h3>VGA</h3>
                  <div class="rating-info">
@@ -443,16 +443,16 @@
       <div
         class="specialist-card"
         data-aos="slide-up"
-        data-aos-delay="300">
+        data-aos-delay="500">
         <div class="card-content">
           <div class="specialist-info">
             <div class="profile-section">
-              <div class="profile-image">
+              <!-- <div class="profile-image">
                 <img
                   src="assets/img/health/f1.jpeg"
                   alt="Produk"
                   class="img-fluid" />
-              </div>
+              </div> -->
               <div class="specialist-data">
                 <h3>Lainnya</h3>
                  <div class="rating-info">
@@ -502,7 +502,7 @@
           </div>
         </div>
         <div class="contact-actions">
-          <a href="https://wa.me/6281241680303" class="call-btn">
+          <a href="https://wa.me/6281546861418" class="call-btn">
             <i class="fas fa-phone"></i>
             Admin
           </a>

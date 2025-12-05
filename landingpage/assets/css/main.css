@@ -785,6 +785,14 @@ section,
   align-items: center;
 }
 
+.hero .hero-servis {
+  padding-top: 120px;
+  padding-bottom: 80px;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
 .hero .hero-image {
   position: relative;
 }

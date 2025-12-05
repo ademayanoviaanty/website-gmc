@@ -10,15 +10,14 @@ if ($id <= 0) {
 
 $uploadDir = __DIR__ . '/../landingpage/assets/img/uploaded';
 $photo = null;
-
-$stmt = $mysqli->prepare("SELECT photo FROM product WHERE id=?");
+$stmt = $conn->prepare("SELECT photo FROM product WHERE id=?");
 $stmt->bind_param('i', $id);
 $stmt->execute();
 $stmt->bind_result($photo);
 $stmt->fetch();
 $stmt->close();
 
-$stmt2 = $mysqli->prepare("DELETE FROM product WHERE id=?");
+$stmt2 = $conn->prepare("DELETE FROM product WHERE id=?");
 $stmt2->bind_param('i', $id);
 $ok = $stmt2->execute();
 $stmt2->close();
